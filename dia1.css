@@ -1,0 +1,113 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(rgb(2, 2, 2), rgb(16, 17, 15));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    border: 2px rgba(255, 255, 255, 0.726) solid;
+    border-radius: 20px;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    backdrop-filter: blur(1000px);
+    -webkit-box-shadow: -9px 10px 165px 3px rgba(255,255,255,0.65);
+    -moz-box-shadow: -9px 10px 165px 3px rgba(255,255,255,0.65);
+    box-shadow: -9px 10px 165px 3px rgba(255,255,255,0.65);
+}
+.container {
+    width: 900px;
+    height: 400px;
+}
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+.converta {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.selectCoinContainer1 {
+    margin-top: 0px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dolar {
+    width: 160px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+.euro {
+    width: 160px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+.won {
+    width: 160px;
+    height: 70px;
+    margin-bottom: 30px;
+}
+.real {
+    width: 160px;
+    height: 70px;
+    margin-bottom: 30px;
+}
+.selectCoinContainer2 {
+    margin-top: 0px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SocorroKK {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 400px;
+}
+.resultado {
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 44px;
+    position: relative;
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    top: 40px;
+}
+.importante {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    width: 150px;
+    height: 100px;
+    font-size: 40px;
+}
+.input1 {
+    margin-right: 100px;
+}
+button {
+    font-size: 30px;
+}
